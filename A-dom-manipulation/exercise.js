@@ -16,6 +16,17 @@ Write JavaScript below that logs:
 
 */
 
+const pElements = document.querySelectorAll("p");
+console.log(pElements);
+
+const firstDiv = document.querySelector(".site-header");
+console.log(firstDiv);
+
+const jumbotronElement = document.getElementById("jumbotron-text");
+console.log(jumbotronElement);
+
+const pElsInPrimaryContent = document.querySelectorAll(".primary-content p");
+console.log(pElsInPrimaryContent);
 
 /*
 Task 2
